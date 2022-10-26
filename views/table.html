@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Jihyun Nam </title>
+  <style>
+    table, th, td, tr {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/theme.css"/>
+</head>
+<body>
+
+  <div class="table"></div>
+  <header>
+    <h2>
+      Web Programming Assignment 4 (WEB322-ZAA) 
+    </h2>
+  </header>
+  <nav>
+    <div class="center">
+      <ul>	
+        <li><a href="/">Home</a>
+          <!-- click text "Home", direct to page home.html -->
+          </li>
+          <li><a href="list">List</a>
+            <!-- click text "List", direct to page list.html -->
+          </li>
+          <li><a href="table">Table</a>
+            <!-- click text "Table", direct to page table.html -->
+          </li>
+          <li><a href="audio">Audio</a>
+            <!-- click text "Audio", direct to page audio.html -->
+          </li>
+          <li><a href="video">Video</a>
+            <!-- click text "Video", direct to page video.html -->
+          </li>
+          <!-- Assingnment4 PART2-->
+          <li><a href="storefront">Storefront</a>
+            <!-- click text "Storefront", direct to page video.html -->
+          </li>
+    </ul>
+    </div>
+	</nav>
+  
+  <table class="table table-hover">
+    <caption> A Movie Schedules Table </caption>    
+        <thead>
+          <tr>
+            <th> Movie Name</th>
+            <th>Time</th>
+            <th>Director(s)</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td rowspan="2" align="center">Avengers : Endgame</td>
+            <td>10:00 AM</td>
+            <td rowspan="2" align="center">Anthony Russo, Joe Russo</td>
+          </tr>
+          <tr>
+            <td>2:00 PM</td>
+          </tr>
+          <tr>
+            <td>The Lord of the Rings</td>
+            <td>6:00 PM</td>
+            <td>Peter Jackson</td>
+          </tr>
+          <tr>
+            <td>Harry Potter</td>
+            <td>9:00 PM</td>
+            <td> David Yates, Alfonso Cuarón, Mike Newell, Chris Columbus</td>
+          </tr>
+        </tbody>
+
+        <tfoot align="center">
+          <td colspan="3"> # Theatre Address: Cine Plex, Square ONE, Mississauga / 
+            Contact : abcd@gmail.com # </td>
+      </tfoot>
+
+  </table>
+  <br>
+</div>
+
+  <h2>
+    Decribing content in the section
+  </h2>
+  <p>
+    This page shows an example of table. <br>
+    I use "caption, thead, tbody, tfoot, th, td, tr, and span properties". <br>
+    I chose the movie and designed my self.
+  </p>
+
+  <mark>
+    <script>
+        var dt=new Date(document.lastModified);
+        document.write('This page was last updated on '+dt.toLocaleString()) ;
+    </script>
+  </mark>
+
+  <footer>
+    <div class="footer">
+      &copy; 2022 Jihyun Nam
+    </div>
+  </footer>
+
+</body>
+</html>

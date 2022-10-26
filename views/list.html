@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>Jihyun Nam</title>
+	<meta charset="UTF-8" />
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/theme.css"/>
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+				Web Programming Assignment 4 (WEB322-ZAA)
+			</h2>
+		</div>
+	</header>
+	<nav>
+		<div class="center">
+			
+		<ul>	
+				<li><a href="/">Home</a>
+					<!-- click text "Home", direct to page home.html -->
+			   </li>
+			   <li><a href="list">List</a>
+				   <!-- click text "List", direct to page list.html -->
+			   </li>
+			   <li><a href="table">Table</a>
+				   <!-- click text "Table", direct to page table.html -->
+			   </li>
+			   <li><a href="audio">Audio</a>
+				   <!-- click text "Audio", direct to page audio.html -->
+			   </li>
+			   <li><a href="video">Video</a>
+				   <!-- click text "Video", direct to page video.html -->
+			   </li>
+				<!-- Assingnment4 PART2-->
+				<li><a href="storefront">Storefront</a>
+				<!-- click text "Storefront", direct to page video.html -->
+				</li>
+		</ul>
+		</div>
+	</nav>
+		
+	<section class="main center">
+
+		<h2> Welcome </h2>
+        <p>Welcome to my to my Web Programming Assignment website. <br>
+			 It will contains nested list using healthy food, calories and nutrition. </p>
+		<h2> Information about myself </h2>
+		<p> My name is Jihyun Nam with student Id 130641210, and I am taking CPA course now. <br>
+			I am really enjoying coding! </p>
+
+	<!-- Create the nested lists as instruction on a3.pdf -->
+	<h2> HTML Lists </h2>
+	<ul>
+        <li> Banana </li>
+        <li> Berries 
+            <ol>
+                <li> Strawberry 
+					<ul style="list-style-type: square;">
+						<li> Protein </li>
+						<li> Fiber </li>
+						<li> Carbohydrate </li>
+						<li> Vitamic C </li>
+					</ul>
+				</li>
+                <li> Blueberry </li>
+                <li> Blackberyy </li>
+				<li> Rasberry </li>
+            </ol>
+        </li>
+        <li> Watermelon </li>
+		<li> Orange </li>
+		<li> Pineapple </li>
+		<li> Apple </li>
+    </ul>
+
+	</section>
+
+	<!--Timestamp here-->
+	<mark>
+        <script>
+            var dt=new Date(document.lastModified);
+             document.write('This page was last updated on '+dt.toLocaleString()) ;
+        </script>
+    </mark>
+
+	<footer>
+	  <div class="center">
+		  &copy; 2022 Jihyun Nam
+	  </div>
+	</footer>
+</body>
+</html>	  
